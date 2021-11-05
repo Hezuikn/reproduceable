@@ -1,0 +1,12 @@
+[package]
+name = "reproduceable"
+version = "0.1.0"
+edition = "2021"
+
+#resolver = "1"
+
+[dependencies]
+#test = { path = "test", artifact = "bin" }
+
+[build-dependencies]
+test = { path = "test", artifact = "bin" }
